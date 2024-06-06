@@ -1,12 +1,13 @@
 # GitHub Issues Assistant
 
-The GitHub Issues Assistant is a powerful tool that enables users to ask questions about GitHub issues and receive informative responses. It leverages various libraries and technologies to fetch and process GitHub issues data, store it in a vector database, and generate responses using a state-of-the-art language model.
+The GitHub Issues Assistant is a powerful tool that enables users to ask questions about GitHub issues and receive informative responses. It leverages various libraries and technologies to fetch and process GitHub issues data, store it in a vector database, and generate responses using a state-of-the-art language model.The assistant utilizes the Retrieval-Augmented Generation (RAG) approach, which combines information retrieval and language generation to provide accurate and relevant answers.
 
 ## Features
 
 - Fetches GitHub issues data from a specified repository using the GitHub API
 - Stores the fetched issues in an AstraDB vector database for efficient retrieval
 - Utilizes OpenAI's language model to generate informative responses to user queries
+- Employs the Retrieval-Augmented Generation (RAG) approach for enhanced accuracy and relevance
 - Provides a user-friendly web interface using Gradio for easy interaction
 
 ## Installation
@@ -49,7 +50,7 @@ The GitHub Issues Assistant utilizes the following libraries:
 
 - [requests](https://docs.python-requests.org/): A simple, yet elegant, HTTP library for making API requests.
 - [python-dotenv](https://github.com/theskumar/python-dotenv): Reads key-value pairs from a `.env` file and sets them as environment variables.
-- [langchain](https://github.com/hwchase17/langchain): A framework for developing applications powered by language models.
+- [langchain](https://github.com/hwchase17/langchain): A framework for developing Retrieval-Augmented Generation (RAG) based applications powered by language models.
 - [OpenAI](https://openai.com/): Provides access to OpenAI's powerful language models.
 - [Gradio](https://gradio.app/): A Python library for building web interfaces for machine learning models.
 - [AstraDB](https://www.datastax.com/products/datastax-astra): A scalable and fast vector database for efficient data retrieval.
